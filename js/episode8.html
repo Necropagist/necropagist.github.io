@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 8</title>
+</head>
+<body>
+    
+    <p>Apa Passsword Anda ?</p>
+    <p><input type="text" id="tebakan"></p>
+    <button id="submit">Submit
+
+    </button>
+    <script type="text/javascript">
+
+        document.getElementById("submit").onclick = function() {
+
+            var tebakan = document.getElementById("tebakan").value;
+            var password1 = "bagus-bagus";
+            var password2 = "bagus dong";
+        if (tebakan == password1) {
+            alert("Password Anda Benar!")
+        } else if (tebakan == password2) {
+            alert("Password Anda Benar!")
+        } else {
+            alert("Password Anda Salah!")
+        }  
+        }
+
+      
+
+    </script>
+
+
+</body>
+</html>
